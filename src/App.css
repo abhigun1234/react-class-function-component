@@ -6,7 +6,15 @@
   height: 40vmin;
   pointer-events: none;
 }
+.player-list{
 
+  position: fixed;
+}
+.container{
+  background-image: url(./img/ipl-schedule.jpg);
+  height: 149vh;
+  max-width: 100%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

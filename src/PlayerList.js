@@ -1,15 +1,17 @@
 import React from 'react';
 
+import {IoIosHome} from 'react-icons/io'
 function PlayerList(props) {
 //    const  names=['soham','mohan','rohan']
 //    const persons=[{name:'abhi'},{name:'ravi'}]
+
      const ipLTeams=[{name:'mumbai',owner:'ambani'},
      {name:'pune'},
      {name:'delhi'},
      {name:'punjab'},
      {name:'hyd'}]
     return (
-        <div>
+        <div class="player-list">
             {/* <h1>{names[0]}</h1>
             <h2>{names[1]}</h2>
             <h2>{names[2]}</h2>
