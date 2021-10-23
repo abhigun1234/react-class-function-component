@@ -14,6 +14,7 @@ function App() {
       <div className="header">
     
         <label>My Restro</label>
+        <div class="mycontainer">
         <div class="card" >
         <div class="card-body">
           <h5 class="card-title">Butter Chicken</h5>
@@ -75,6 +76,7 @@ function App() {
           <p class="card-text">Butter chicken </p>
           <p class="card-text">price 234 rs </p>
           <a href="#" class="btn btn-primary">Add To cart </a>
+        </div>
         </div>
         </div>
       </div>
