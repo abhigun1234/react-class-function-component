@@ -8,6 +8,7 @@ import EventBinding from './EventBinding';
 import PlayerList from './PlayerList';
 import Descrturing from './Descrturing';
 import Person from './Person';
+//adding
 function App() {
   return (
     <div className="App">
