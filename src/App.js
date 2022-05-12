@@ -6,6 +6,7 @@ import Child from './Child';
 import FuncComponent from './FuncComponent';
 import ChildOne from './ChildOne';
 import ChildTwo from './ChildTwo';
+import CustomerInfo from './CustomerInfo';
 //adding
 function App() {
  console.log("data",data)
@@ -23,11 +24,12 @@ function App() {
     )} */}
     {/* <Child name="raj" address="singapur"></Child> */}
     {/* <FuncComponent></FuncComponent> */}
-    <ChildOne name="ravi" address="singapur"></ChildOne>
-    <ChildTwo></ChildTwo>
+    {/* <ChildOne name="ravi" address="singapur"></ChildOne>
+    <ChildTwo></ChildTwo> */}
     {/* <ChildOne name="kavi" address="singapur"></ChildOne>
     <ChildOne name="raj" address="singapur"></ChildOne>
     <ChildTwo name="Abhi" address="London"></ChildTwo> */}
+    <CustomerInfo></CustomerInfo>
 </div>
   );
 }
