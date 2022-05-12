@@ -24,9 +24,10 @@ function App() {
     {/* <Child name="raj" address="singapur"></Child> */}
     {/* <FuncComponent></FuncComponent> */}
     <ChildOne name="ravi" address="singapur"></ChildOne>
-    <ChildOne name="kavi" address="singapur"></ChildOne>
+    <ChildTwo></ChildTwo>
+    {/* <ChildOne name="kavi" address="singapur"></ChildOne>
     <ChildOne name="raj" address="singapur"></ChildOne>
-    <ChildTwo name="Abhi" address="London"></ChildTwo>
+    <ChildTwo name="Abhi" address="London"></ChildTwo> */}
 </div>
   );
 }
