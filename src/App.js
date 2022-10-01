@@ -7,6 +7,8 @@ import FuncComponent from './FuncComponent';
 import ChildOne from './ChildOne';
 import ChildTwo from './ChildTwo';
 import CustomerInfo from './CustomerInfo';
+import UseEffectHooksDemo from './UseEffectHooksDemo';
+import ProductData from './ProductData';
 //adding
 function App() {
  console.log("data",data)
@@ -29,7 +31,9 @@ function App() {
     {/* <ChildOne name="kavi" address="singapur"></ChildOne>
     <ChildOne name="raj" address="singapur"></ChildOne>
     <ChildTwo name="Abhi" address="London"></ChildTwo> */}
+    <UseEffectHooksDemo></UseEffectHooksDemo>
     <CustomerInfo></CustomerInfo>
+    <ProductData></ProductData>
 </div>
   );
 }
